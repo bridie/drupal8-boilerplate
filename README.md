@@ -15,3 +15,5 @@ Therefore, once you have cloned this repository, run `composer install` to insta
   - Alters the admin toolbar to have dropdowns so sub menus are easier to access
 - Devel
   - A suite of helpful tools for development
+
+For information on managing contributed modules with Composer [read this](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#managing-contributed).
