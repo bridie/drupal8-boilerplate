@@ -1,0 +1,10 @@
+name: Custom Theme
+type: theme
+description: 'A custom theme'
+core: 8.x
+libraries:
+  - custom_theme/global-styling
+  - custom_theme/global-scripts
+regions:
+  header: 'Header'
+  content: 'Content'

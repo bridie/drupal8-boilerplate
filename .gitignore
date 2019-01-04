@@ -22,3 +22,10 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore all node modules
+/node_modules/
+
+# Ignore the generated CSS and JS files in the custom theme
+/web/themes/custom/custom_theme/css/style.css
+/web/themes/custom/custom_theme/js/bundle.js

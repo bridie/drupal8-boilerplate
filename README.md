@@ -30,3 +30,8 @@ Therefore, once you have cloned this repository, run `composer install` to insta
   - A suite of helpful tools for development
 
 For information on managing contributed modules with Composer [read this](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#managing-contributed).
+
+## Custom Theme
+A custom theme has been created which includes a skeletal CSS directory structure, an entry JS file, and dev and prod webpack config files. Webpack has been set up to compile both the CSS and the JS.
+
+To get started with this theme, in the project root run `yarn`, this will install all of the required node modules. Then `cd` to the root of the custom theme, and run either `yarn run build:prod` to build for production, or `yarn run build:dev` to build for developmen, this will also watch the files.
