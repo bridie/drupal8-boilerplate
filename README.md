@@ -1,5 +1,10 @@
 # Drupal 8 Boilerplate
-This is a boilerplate for quickly getting started with a Drupal 8 project.
+This is a boilerplate for quickly getting started with a Drupal 8 project. Here's a quick overview of what;s included:
+- Uses Composer for backend dependency management
+- Uses Yarn for for frontend dependecy management
+- Webpack used for frontend asset compilation
+  - includes babel transpilation
+  - includes SASS compilation
 
 ## Remove the git repository
 As this is a boilerplate, I would suggest removing the git repository with `rm -rf .git`, and then create your own git respository with `git init && git add . && git commit -m "Initial commit using the Drupal 8 Boilerplate"`
