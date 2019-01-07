@@ -1,5 +1,5 @@
 # Drupal 8 Boilerplate
-This is a boilerplate for quickly getting started with a Drupal 8 project. Here's a quick overview of what;s included:
+This is a boilerplate for quickly getting started with a Drupal 8 project. Here's a quick overview of what's included:
 - Uses Composer for backend dependency management
 - Uses Yarn for for frontend dependecy management
 - Webpack used for frontend asset compilation
