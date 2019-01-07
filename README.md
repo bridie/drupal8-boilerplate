@@ -1,10 +1,16 @@
 # Drupal 8 Boilerplate
-This is a boilerplate for quickly getting started with a Drupal 8 project. Here's a quick overview of what;s included:
+This is a boilerplate for quickly getting started with a Drupal 8 project. Here's a quick overview of what's included:
 - Uses Composer for backend dependency management
 - Uses Yarn for for frontend dependecy management
 - Webpack used for frontend asset compilation
   - includes babel transpilation
   - includes SASS compilation
+  - includes react support (optional see [this section](#react))
+
+## React
+The master branch does not contain any React support as I am assuming this is not a necessity for getting started with Drupal 8. However, I have created a react branch that includes React support, because I quite often use React in Drupal 8 websites for pages/components that are interactive e.g. forms, page filters
+
+To use the boilerplate that includes React support clone the react branch, not the master branch.
 
 ## Remove the git repository
 As this is a boilerplate, I would suggest removing the git repository with `rm -rf .git`, and then create your own git respository with `git init && git add . && git commit -m "Initial commit using the Drupal 8 Boilerplate"`
