@@ -11,7 +11,7 @@ As this is a boilerplate, I would suggest removing the git repository with `rm -
 
 ## Disable page caching during development
 Please note, accessing the site as an anonymous user will still cache the page, so make sure you are logged in to see the site with caches disabled.
-1. From the root of the project run `cp web/sites/example.settings.local.php web/sites/default web/sites/default/settings.local.php`.
+1. From the root of the project run `cp web/sites/example.settings.local.php web/sites/default/settings.local.php`.
 2. Open the newly created settings.local.php file.
 3. Uncomment the following `$settings['cache']['bins']['render'] = 'cache.backend.null';`.
 4. Uncomment the following `$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';`.
